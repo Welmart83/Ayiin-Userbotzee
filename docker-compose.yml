@@ -8,22 +8,22 @@ services:
 
     environment:
 
-      API_ID: API_ID
+      api_id: $API_ID
 
-      API_HASH: API_HASH
+      api_hash: $API_HASH
 
-      STRING_SESSION: STRING_SESSION
+      string_session: $STRING_SESSION
 
-      BOT_TOKEN: BOT_TOKEN
+      bot_token: $BOT_TOKEN
 
-      BOT_USERNAME: BOT_USERNAME
+      bot_username: $BOT_USERNAME
 
-      BOTLOG_CHATID: BOTLOG_CHATID
+      botlog_chatid: $BOTLOG_CHATID
 
-      DATABASE_URL: DATABASE_URL
+      database_url: $DATABASE_URL
       
-      REDIS_URI: REDIS_URI
+      redis_uri: $REDIS_URI
       
-      REDIS_PASSWORD: REDIS_PASSWORD
+      redid_password: $REDIS_PASSWORD
 
-      PM_AUTO_BAN: PM_AUTO_BAN
+      pm_auto_ban: $PM_AUTO_BAN
