@@ -1,4 +1,4 @@
-version: "3.9"
+8version: "3.9"
 
 services:
 
@@ -24,6 +24,6 @@ services:
       
       redis_uri: $REDIS_URI
       
-      redid_password: $REDIS_PASSWORD
+      redis_password: $REDIS_PASSWORD
 
       pm_auto_ban: $PM_AUTO_BAN
